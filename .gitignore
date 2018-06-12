@@ -1,0 +1,15 @@
+# Compiled code files of modules
+*.pyc
+
+# Intellij project files
+*.iml
+.idea/*
+
+# IPython Notebook Checkpoints
+.ipynb_checkpoints/*
+
+# MNIST dataset directory
+data/*
+
+# Model files (compressed numpy binaries)
+models/*
