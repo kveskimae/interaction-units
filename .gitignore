@@ -3,10 +3,9 @@
 
 # Intellij project files
 *.iml
-.idea/*
 
-# IPython Notebook Checkpoints
-.ipynb_checkpoints/*
+# Hidden files
+.*
 
 # MNIST dataset directory
 data/*
