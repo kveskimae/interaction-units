@@ -5,7 +5,7 @@ Experimental implementations of multilayer neural network using `numpy` library 
 
 ## All pairwise interactions
 
-In this configuration, interaction terms are formed by making all possible pairwise combinations.
+In this configuration, interaction terms are formed by making all possible pairwise multiplications.
 
 ![Pairwise interactions](/img/all_pairwise.png)
 
@@ -22,8 +22,13 @@ The most most common way to combine inputs for interaction is via weighted pairw
 ![Pairwise correlations](/img/correlations.png)
 
 Formula for forward pass for activation of j-th neuron in the l-th layer is
-* for weight layer ![Forward pass for weight layer](/img/equation_forward_pass_weight_layer.png)
-* interaction layer ![Forward pass for interaction layer](/img/equation_forward_pass_interaction_layer.png)
+* for weight layer 
+
+![Forward pass for weight layer](/img/equation_forward_pass_weight_layer.png)
+
+* VS now for the new interaction layer 
+
+![Forward pass for interaction layer](/img/equation_forward_pass_interaction_layer.png)
 
 Two network layouts were tested for correlations.
 
