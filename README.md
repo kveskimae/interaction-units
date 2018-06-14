@@ -43,8 +43,17 @@ Configuration 2 stacks correlations layer right after the input layer:
 ## Code files
 
 Work is in Jupyter notebooks in Python 2.7 :
-* *reference.ipynb* contains the original reference network;
-* *correlations_conf1.ipynb* contains a correlations layer as in configuration 1;
-* *correlations_conf2.ipynb* contains a correlations layer as in configuration 2;
-* *all_pairwise.ipynb* stacks a layer of all pairwise interactions after the input layer.
+* *correlations_conf1.ipynb* contains a correlations layer (with activation and bias) as in configuration 1;
+* *correlations_conf2.ipynb* contains a correlations layer (with activation and bias) as in configuration 2;
+* *reference.ipynb* contains the original reference network with the same layout as configuration 1, but with ordinary sigmoid neurons in place of interaction units;
+* *all_pairwise.ipynb* stacks a layer of all pairwise interactions (without activation or bias) after the input layer.
 
+## Results
+
+In evaluating networks, training went through 20 epochs.
+
+![Test accuracies](/img/test_accuracy.png)
+
+Validation accuracies were 
+
+![Validation accuracies](/img/Validation.png)
