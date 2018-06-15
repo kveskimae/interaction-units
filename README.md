@@ -52,8 +52,6 @@ Work is in Jupyter notebooks in Python 2.7 :
 
 In evaluating networks, training went through 20 epochs.
 
-![Test accuracies](/img/test_accuracy.png)
-
-Validation accuracies were 
+![Test accuracies](/img/test_accuracy.png) 
 
 ![Validation accuracies](/img/Validation.png)
