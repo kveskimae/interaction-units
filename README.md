@@ -55,3 +55,7 @@ In evaluating networks, training went through 20 epochs.
 ![Test accuracies](/img/test_accuracy.png) 
 
 ![Validation accuracies](/img/Validation.png)
+
+## Suggestions
+
+Pixel interactions came short in expediting image recognition in this work. Pixel interactions are still promising in theory, as they should be able to represent conjunction conditions better. You can try other layouts and parameters yourself to find some edge. Augmenting layers with interaction nodes could be tried as well (creating a layer with a section of ordinary sigmoid neurons and another section of correlation units).
