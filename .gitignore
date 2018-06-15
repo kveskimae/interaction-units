@@ -10,5 +10,3 @@
 # MNIST dataset directory
 data/*
 
-# Model files (compressed numpy binaries)
-models/*
